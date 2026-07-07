@@ -1,0 +1,9 @@
+# WIDER Face subset dataset for YOLOv8
+path: /opt/ml/input/data/training
+
+train: WIDER_train/images
+val: WIDER_val/images
+
+nc: 1
+names: ['face']
+
